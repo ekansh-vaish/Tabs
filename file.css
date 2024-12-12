@@ -1,0 +1,84 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.tab{
+height: 600px;
+width: 1200px;
+border-style: solid;
+border-color: black;
+margin: 10px;
+}
+
+.nav1
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 1150px;
+height: 80px;
+margin: 10px;
+border-style: solid;
+border-color: black;
+background-color: rgb(127, 236, 255);
+}
+
+.nav1 button{
+height: 40px;
+margin: 20px;
+
+background-color: rgb(234, 255, 127);
+
+}
+
+.nav1 button::shadow
+{
+opacity: initial;
+}
+button:hover
+{
+opacity: inherit;
+color: rgb(170, 35, 19);
+}
+
+.idea
+{
+display: flex;
+flex-direction: row;
+}
+.content1
+{
+height: 300px;
+width: 300px;
+border-style: solid;
+border-color: black;
+margin: 10px;
+}
+
+.content2
+{
+height: 300px;
+width: 300px;
+border-style: solid;
+border-color: black;
+margin: 10px;
+}
+
+.content3
+{
+height: 300px;
+width: 300px;
+border-style: solid;
+border-color: black;
+margin: 10px;
+}
+
+.content4
+{
+height: 300px;
+width:275px;
+border-style: solid;
+border-color: black;
+margin: 10px;
+}
